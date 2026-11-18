@@ -1,0 +1,16 @@
+{
+  "id": "/pixel-window-android/iphone/",
+  "name": "像素窗景",
+  "short_name": "像素窗景",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#17121d",
+  "theme_color": "#17121d",
+  "icons": [
+    {"src": "./assets/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "./assets/icon-512.png", "sizes": "512x512", "type": "image/png"}
+  ]
+}

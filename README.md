@@ -4,6 +4,8 @@
 
 [前往 Releases 下载 APK](https://github.com/KeyOfTheQuestion/pixel-window-android/releases/latest)
 
+[打开 iPhone 轻量版](https://keyofthequestion.github.io/pixel-window-android/iphone/)
+
 ![Redmi Note 9 上的夜景截图，茶书店亮着灯，街上有行人和自行车，橘猫在窗台右侧](docs/media/night-preview.png)
 
 ## 安装和使用
@@ -13,6 +15,12 @@
 3. 打开「像素窗景」，将手机横放。画面默认全屏常亮，长按可选择白天、夜晚或跟随北京日出日落。
 
 街景和动画在手机上绘制，安装后可离线使用。自动光线以北京时间为准，在北京日出和日落附近逐渐变亮或变暗。
+
+## iPhone 轻量版
+
+用 Safari 打开上方链接，从分享菜单选「添加到主屏幕」。如果看到「作为网页 App 打开」，请开启它，然后点「添加」。横放手机即可看完整窗景。画面右上角的「光线」可以切换昼夜，在浏览器支持时也可开启保持亮屏。首次打开后，等设置中显示素材已缓存，即可离线打开。
+
+轻量版源码在 `docs/iphone/`，使用 Canvas 和浏览器的离线缓存，可部署到任意 HTTPS 静态站点。
 
 ## 窗外有什么
 
