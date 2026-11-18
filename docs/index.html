@@ -3,8 +3,38 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="refresh" content="0; url=./iphone/">
-  <title>像素窗景</title>
+  <meta name="theme-color" content="#17121d">
+  <title>像素窗景 · Pixel Window</title>
+  <style>
+    :root { color-scheme: dark; font: 16px/1.6 system-ui, sans-serif; background: #17121d; color: #fff3de; }
+    body { margin: 0; }
+    main { width: min(900px, calc(100% - 32px)); margin: 40px auto; }
+    h1 { margin: 0; font-size: clamp(1.8rem, 6vw, 2.75rem); }
+    p { margin: 0.4rem 0 1.3rem; color: #dcc5b6; }
+    img { display: block; width: 100%; height: auto; border: 1px solid #684b3e; border-radius: 12px; box-sizing: border-box; }
+    nav { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr)); gap: 10px; margin: 1rem 0; }
+    nav a { display: block; padding: 0.65rem 0.95rem; border: 1px solid #b28664; border-radius: 9px; background: #2b2229; color: inherit; text-decoration: none; }
+    nav small { display: block; color: #dcc5b6; }
+    a { color: #f6cc9f; }
+    a:focus-visible { outline: 2px solid #f2bd82; outline-offset: 3px; }
+  </style>
 </head>
-<body><a href="./iphone/">打开像素窗景</a></body>
+<body>
+  <main>
+    <h1>像素窗景</h1>
+    <p>把闲置手机变成一扇窗，看茶书店的灯亮起来，骑车人经过，橘猫在窗台散步。</p>
+    <nav aria-label="选择手机平台">
+      <a href="https://github.com/KeyOfTheQuestion/pixel-window-android/releases/latest">
+        <strong>Android · 下载 APK</strong>
+        <small>适用于 Android 11 及以上</small>
+      </a>
+      <a href="./iphone/">
+        <strong>iPhone · 打开轻量版</strong>
+        <small>用 Safari 添加到主屏幕</small>
+      </a>
+    </nav>
+    <img src="./media/night-preview.png" width="1280" height="590" alt="茶书店亮着暖灯，街上有行人和自行车，橘猫站在窗台右侧">
+    <p><a href="https://github.com/KeyOfTheQuestion/pixel-window-android">查看 GitHub 源码与使用说明</a></p>
+  </main>
+</body>
 </html>

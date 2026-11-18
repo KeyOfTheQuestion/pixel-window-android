@@ -1,14 +1,17 @@
 # 像素窗景 · Pixel Window
 
-把一台闲置的 Android 手机变成横屏常亮的像素窗景。窗外是一条有茶书店、行人和骑车人的街道，橘猫偶尔会到窗台走一圈。
+把一台闲置的 Android 手机或 iPhone 变成横屏像素窗景。窗外是一条有茶书店、行人和骑车人的街道，橘猫偶尔会到窗台走一圈。
 
-[前往 Releases 下载 APK](https://github.com/KeyOfTheQuestion/pixel-window-android/releases/latest)
+[像素窗景项目主页](https://keyofthequestion.github.io/pixel-window-android/)
 
-[打开 iPhone 轻量版](https://keyofthequestion.github.io/pixel-window-android/iphone/)
+| 平台 | 使用入口 | 源码 |
+| --- | --- | --- |
+| Android 11 及以上 | [从 Releases 下载 APK](https://github.com/KeyOfTheQuestion/pixel-window-android/releases/latest) | [android/](android/) |
+| iPhone | [在 Safari 打开轻量版](https://keyofthequestion.github.io/pixel-window-android/iphone/) | [docs/iphone/](docs/iphone/) |
 
 ![Redmi Note 9 上的夜景截图，茶书店亮着灯，街上有行人和自行车，橘猫在窗台右侧](docs/media/night-preview.png)
 
-## 安装和使用
+## Android 原生版
 
 1. 在 Android 11 或更新版本的设备上下载并打开 Releases 中的 APK。
 2. 如果系统询问安装权限，按提示允许当前浏览器或文件管理器安装这个 APK。
@@ -28,7 +31,7 @@
 - 骑车人白天和夜晚都会经过，约每 28 秒来一趟，方向交替。
 - 橘猫四爪交替踩过窗台，会在自行车靠近时避让，也会蜷起来休息。
 
-## 从源码构建
+## 构建 Android APK
 
 构建脚本面向 macOS。准备 JDK 21、Android SDK Platform 34 和 Build-Tools 34.0.0，并在需要时用 `JAVA_HOME` 和 `ANDROID_HOME` 指定安装路径。
 
