@@ -1,6 +1,6 @@
 # 像素窗景 · Pixel Window
 
-把一台闲置的 Android 手机或 iPhone 变成横屏像素窗景。窗外是一条有茶书店、行人和骑车人的街道，橘猫偶尔会到窗台走一圈。
+把一台闲置的 Android 手机或 iPhone 变成离线横屏窗景。骑车人从茶书店门前经过，橘猫踩着窗台散步，街景随北京日出和日落渐变。
 
 [像素窗景项目主页](https://keyofthequestion.github.io/pixel-window-android/)
 
@@ -9,7 +9,11 @@
 | Android 11 及以上 | [从 Releases 下载 APK](https://github.com/KeyOfTheQuestion/pixel-window-android/releases/latest) | [android/](android/) |
 | iPhone | [在 Safari 打开轻量版](https://keyofthequestion.github.io/pixel-window-android/iphone/) | [docs/iphone/](docs/iphone/) |
 
-![Redmi Note 9 上的夜景截图，茶书店亮着灯，街上有行人和自行车，橘猫在窗台右侧](docs/media/night-preview.png)
+## 界面截图
+
+| Android 原生版 · 1.1.6 实机 | iPhone 轻量版 · 横屏浏览器预览 |
+| --- | --- |
+| ![Redmi Note 9 上的日间茶书店街景，行人和自行车经过](docs/media/day-preview.png) | ![iPhone 横屏视口的夜间街景与光线设置入口](docs/media/night-preview.png) |
 
 ## Android 原生版
 
